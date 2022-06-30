@@ -1,0 +1,11 @@
+*
+h1
+{
+	font-family::@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap');
+	justify-content: center;
+}
+p
+{
+	font-family: verdana;
+	justify-content;
+}
