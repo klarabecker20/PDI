@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>AAAA</title>
+</head>
+<body>
+<h1>isso é um titulo</h1>
+	
+<p>Essa página pede pro usuário um numero que será o numero de segundos que após o usuário clicar no botão, uma determinada imagem irá ficar exposta na tela, após isso, ela será trocada por outra.
+</p>
+<form onsubmit="return false">
+	<label for="usuário"> diga o tempo que deseja que a imagem fique:</label>
+	<input type="text" name="usuário"> <br/>
+	<button id="botao">Me pressione!</button>
+</form>
+<img src="porta.jpg">
+</body>
+<script type="text/javascript">
+	function troca (){
+        let imagem=document.getElementById('imagem');
+       imagem.src="koo.jpg"
+    }
+    document.getElementById("botao").addEventListener("click",alerta);
+</script>
+</html>
